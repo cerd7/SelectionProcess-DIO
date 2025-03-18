@@ -6,10 +6,9 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class ApplicantData {
     private String salaryClaim;
     private String languageUsed;
-    private Integer positionApplied;
-    private Applicant applicant;
+    private String positionApplied;
 
-    ApplicantData(){
+    public ApplicantData(){
     }
 
     public String getSalaryClaim() {
@@ -28,19 +27,11 @@ public class ApplicantData {
         this.languageUsed = languageUsed;
     }
 
-    public Integer getPositionApplied() {
+    public String getPositionApplied() {
         return positionApplied;
     }
 
-    public void setPositionApplied(Integer positionApplied) {
+    public void setPositionApplied(String positionApplied) {
         this.positionApplied = positionApplied;
-    }
-
-    public Applicant getApplicant() {
-        return applicant;
-    }
-
-    public void setApplicant(Applicant applicant) {
-        this.applicant = applicant;
     }
 }

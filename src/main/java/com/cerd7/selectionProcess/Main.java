@@ -1,10 +1,10 @@
 package com.cerd7.selectionProcess;
 
-import com.cerd7.selectionProcess.repository.ApplicantRepository;
+import com.cerd7.selectionProcess.controller.ApplicantController;
 
 public class Main {
     public static void main(String[] args) {
-        ApplicantRepository app = new ApplicantRepository();
-        app.readApplicants();
+        ApplicantController applicantController = new ApplicantController();
+        applicantController.addApplicant();
     }
 }

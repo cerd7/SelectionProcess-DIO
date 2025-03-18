@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "Caio",
+    "Age": 25,
+    "Cellphone": "19992704334",
+    "More data": {
+      "salaryClaim": "2500",
+      "languageUsed": "Java",
+      "positionApplied": "Intern"
+    }
+  }
+]

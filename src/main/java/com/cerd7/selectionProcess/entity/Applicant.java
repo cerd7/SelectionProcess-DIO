@@ -15,7 +15,7 @@ public class Applicant {
     @JsonProperty("More data")
     private ApplicantData applicantData;
 
-    Applicant(){
+    public Applicant(){
     }
 
     Applicant(String applicantName, Integer applicantAge, String applicantCellphone, ApplicantData applicantData){
@@ -47,5 +47,13 @@ public class Applicant {
 
     public void setApplicantCellphone(String applicantCellphone) {
         this.applicantCellphone = applicantCellphone;
+    }
+
+    public ApplicantData getApplicantData() {
+        return applicantData;
+    }
+
+    public void setApplicantData(ApplicantData applicantData) {
+        this.applicantData = applicantData;
     }
 }
