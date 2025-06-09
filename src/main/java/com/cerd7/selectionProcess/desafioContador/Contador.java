@@ -28,8 +28,8 @@ public class Contador {
             throw new ParametrosInvalidosExceptionContador("The number two must not be greater than the number one;");
         }
         int contagem = secondNumber - firstNumber;
-        for (int i = 0; i < contagem; i++) {
-            System.out.println(i);
+        for (int i = 1; i < contagem; i++) {
+            System.out.println("Counting =>[" + i + "]");
         }
     }
 }
